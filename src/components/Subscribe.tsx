@@ -48,7 +48,6 @@ export const Subscribe = () => {
           value={value}
           onChange={handleInputChange}
         />
-        {value}
         {error && (
           <p className="error__text">
             Fill the gap

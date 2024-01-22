@@ -92,6 +92,7 @@
 .address {
   display: flex;
   flex-direction: column;
+  text-decoration: none;
 }
 
 .address-text {
@@ -106,6 +107,10 @@
   font-size: 16px;
   font-weight: 600;
   color: rgba(241, 245, 244, 1);
+
+  &:hover {
+    color: lightblue;
+  }
 }
 
 .menu__list {
@@ -137,6 +142,12 @@
   font-size: 20px;
   font-weight: 700;
   color: rgba(241, 245, 244, 1);
+  transition: transform 1s linear;
+
+  &:hover {
+    color: lightblue;
+    transform: scale(1.1);
+  }
 
   @include onTablet {
     font-size: 48px;
