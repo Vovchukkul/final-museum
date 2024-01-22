@@ -13,9 +13,7 @@ export const Subscribe = () => {
     if (value.trim().length === 0) {
       setError(true);
     } else {
-      const formElement = event.currentTarget as HTMLFormElement;
-
-      formElement.reset();
+      setValue('');
       setError(false);
     }
   };
@@ -36,7 +34,7 @@ export const Subscribe = () => {
         </p>
       </div>
       <form
-        action="http://localhost:3000/"
+        action="http://localhost:3001/final-museum"
         className="form"
         autoComplete="off"
         onSubmit={handleSubmit}

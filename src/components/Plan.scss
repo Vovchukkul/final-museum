@@ -27,6 +27,7 @@
   font-weight: 700;
   color: rgba(241, 245, 244, 1);
   margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
 
   @include onTablet {
     font-size: 72px;
@@ -36,6 +37,7 @@
   @include onDesktop {
     font-size: 80px;
     margin-bottom: 10px;
+    max-width: 670px;
   }
 }
 
@@ -44,6 +46,7 @@
   font-weight: 400;
   color: rgba(241, 245, 244, 1);
   margin-bottom: 40px;
+  font-family: 'Raleway', serif;
 
   @include onTablet {
     margin-bottom: 60px;

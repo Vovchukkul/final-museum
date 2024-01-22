@@ -3,6 +3,7 @@
 .currentExhibitions {
   margin-bottom: 120px;
   @include contentPaddingInline;
+  font-family: 'Playfair Display', serif;
 
   @include onTablet {
     @include pageGrid;

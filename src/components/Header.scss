@@ -52,6 +52,7 @@
   font-weight: 400;
   color: rgba(241, 245, 244, 1);
   margin-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .header__title {
@@ -60,6 +61,7 @@
   color: rgba(241, 245, 244, 1);
   margin: 0;
   margin-bottom: 30px;
+  font-family: 'Playfair Display', serif;
 
   @include onTablet {
     font-size: 72px;
@@ -78,6 +80,7 @@
   font-weight: 400;
   color: rgba(241, 245, 244, 1);
   margin-bottom: 40px;
+  font-family: 'Raleway', sans-serif;
 
   @include onTablet {
     width: 330px;
@@ -155,6 +158,7 @@
   font-weight: 700;
   color: rgba(241, 245, 244, 1);
   position: relative;
+  font-family: 'Raleway', serif;
 }
 
 .header__bottom-date-text::after {

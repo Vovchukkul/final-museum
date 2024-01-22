@@ -22,7 +22,7 @@ export const ButtonSubscribe = (
           color: textColor,
         }
       }
-      type="button"
+      type="submit"
     >
       <span className="btn__sub-span">
         {text}

@@ -17,8 +17,8 @@ export const Menu: React.FC<Props> = ({ lang, handleLangChange }) => {
       <div className="menu__top-bar">
         <img src={logo} alt="logo" className="top-bar__logo" />
         <div className="menu__top-bar-right">
-          <Dropdown value={lang} func={handleLangChange} />
           <Link to="/" className="close-icon"></Link>
+          <Dropdown value={lang} func={handleLangChange} />
         </div>
       </div>
       <div className="menu__left-right">
