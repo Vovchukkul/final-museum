@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/final-museum/static/css/main.6f0ccc49.chunk.css",
-    "main.js": "/final-museum/static/js/main.7ffed2e0.chunk.js",
-    "main.js.map": "/final-museum/static/js/main.7ffed2e0.chunk.js.map",
+    "main.css": "/final-museum/static/css/main.bccb2a93.chunk.css",
+    "main.js": "/final-museum/static/js/main.92a31073.chunk.js",
+    "main.js.map": "/final-museum/static/js/main.92a31073.chunk.js.map",
     "runtime-main.js": "/final-museum/static/js/runtime-main.e5900645.js",
     "runtime-main.js.map": "/final-museum/static/js/runtime-main.e5900645.js.map",
     "static/js/2.5a2169f1.chunk.js": "/final-museum/static/js/2.5a2169f1.chunk.js",
     "static/js/2.5a2169f1.chunk.js.map": "/final-museum/static/js/2.5a2169f1.chunk.js.map",
     "index.html": "/final-museum/index.html",
-    "static/css/main.6f0ccc49.chunk.css.map": "/final-museum/static/css/main.6f0ccc49.chunk.css.map",
+    "static/css/main.bccb2a93.chunk.css.map": "/final-museum/static/css/main.bccb2a93.chunk.css.map",
     "static/js/2.5a2169f1.chunk.js.LICENSE.txt": "/final-museum/static/js/2.5a2169f1.chunk.js.LICENSE.txt",
     "static/media/Footer.scss": "/final-museum/static/media/twitter.60bee918.svg",
     "static/media/Menu.scss": "/final-museum/static/media/close-icon.3dfd418a.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.e5900645.js",
     "static/js/2.5a2169f1.chunk.js",
-    "static/css/main.6f0ccc49.chunk.css",
-    "static/js/main.7ffed2e0.chunk.js"
+    "static/css/main.bccb2a93.chunk.css",
+    "static/js/main.92a31073.chunk.js"
   ]
 }
