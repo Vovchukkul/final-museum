@@ -1,10 +1,10 @@
 import React from 'react';
 import './Menu.scss';
-import { Link } from 'react-router-dom';
 import logo from '../../image/namu-logo-museum.svg';
 import { Button } from '../../components/Button';
 import { Dropdown } from '../../components/Dropdown';
 import menu__image from '../../image/img_menu.svg';
+import { HashLink as Link } from 'react-router-hash-link';
 
 type Props = {
   lang: string,
@@ -47,7 +47,10 @@ export const Menu: React.FC<Props> = ({ lang, handleLangChange }) => {
           </div>
           <ul className="menu__list">
             <li className="menu__items">
-              <Link to="/#exhibitions" className="menu__link">
+              <Link
+                to="/#exhibitions"
+                className="menu__link"
+              >
                 Актуальні виставки
               </Link>
             </li>

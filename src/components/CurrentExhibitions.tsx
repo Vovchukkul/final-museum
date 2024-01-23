@@ -8,7 +8,7 @@ import { ButtonSmall } from './ButtonSmall';
 
 export const CurrentExhibitions = () => {
   return (
-    <div className="currentExhibitions" id="exhibitions">
+    <div id="exhibitions" className="currentExhibitions">
       <p className="currentExhibitions__title">
         Актуальні виставки
       </p>
